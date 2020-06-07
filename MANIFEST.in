@@ -1,0 +1,2 @@
+include README.rst LICENSE.txt
+include tovsolver/data/Baym_eos.dat
