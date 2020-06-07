@@ -41,7 +41,7 @@ Calculates tidal properties of neutron star.
 ### Literature
 
 - [**R. C. Tolman, Phys. Rev. 55, 364 (1939)**](https://journals.aps.org/pr/abstract/10.1103/PhysRev.55.364) Static Solutions of Einstein's Field Equations for Spheres of Fluid
-- [**J. R. Oppenheimer and G. M. Volkoff, Phys. Rev. 55, 374 (1939)**](https://journals.aps.org/pr/abstract/10.1103/PhysRev.55.374) On Massive Neutron 
+- [**J. R. Oppenheimer and G. M. Volkoff, Phys. Rev. 55, 374 (1939)**](https://journals.aps.org/pr/abstract/10.1103/PhysRev.55.374) On Massive Neutron Cores
 - [**G. Baym, C. Pethick, and P. Sutherland, Astrophys. J. 170, 299 (1971)**](https://doi.org/10.1086/151216) The Ground State of Matter at High Densities: Equation of State and Stellar Models
 - [**T. Hinderer, B. D. Lackey, R. N. Lang, and J. S. Read, Phys. Rev. D81, 123016 (2010)**](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.81.123016) Tidal deformability of neutron stars with realistic equations of state and their gravitational wave signatures in binary inspiral
 
