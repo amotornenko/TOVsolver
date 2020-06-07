@@ -18,8 +18,10 @@ Python solver for `TOV equation
 
 Documentation
 =============
-To install use::
+To install use:
+
 .. code-block:: python
+
    pip3 install .
 
 Functionality
