@@ -17,7 +17,6 @@ equation](https://en.wikipedia.org/wiki/Tolman%E2%80%93Oppenheimer%E2%80%93Volko
 
 <p align="center">
     <img src="example/figures/mr.png" width="400"/>
-
     <img src="example/figures/tidal.png" width="600"/>
 </p>
 ## Documentation
