@@ -14,13 +14,14 @@ About
 
 Python solver for `TOV equation
 <https://en.wikipedia.org/wiki/Tolman%E2%80%93Oppenheimer%E2%80%93Volkoff_equation>`_.
+
 .. image:: example/figures/mr.png
     :align: center
-    :width: 700px
+    :width: 300px
 
 .. image:: example/figures/tidal.png
     :align: center
-    :width: 700px
+    :width: 300px
 
 
 Documentation
