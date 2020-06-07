@@ -17,10 +17,12 @@ Python solver for `TOV equation
 
 .. image:: example/figures/mr.png
     :align: center
+    :height: 300px
     :width: 300px
 
 .. image:: example/figures/tidal.png
     :align: center
+    :height: 600px
     :width: 300px
 
 
