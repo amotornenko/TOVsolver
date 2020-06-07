@@ -30,6 +30,9 @@ import numpy as np
 from .constants import *
 
 class TOV:
+  """
+  Instance of the TOV solver
+  """
   def __init__(self, en_arr, p_arr, add_crust=True, plot_eos=False):
     """
     Initializes TOVsolver, EOS should be provided by passing pressure (p_arr)
@@ -75,8 +78,6 @@ class TOV:
 
     self.min_p = np.min(p_arr)
     self.max_p = np.max(p_arr)
-
-    self.N  = N
 
     if add_crust:
       if(plot_eos):
