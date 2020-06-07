@@ -15,9 +15,9 @@
 Python solver for [TOV
 equation](https://en.wikipedia.org/wiki/Tolman%E2%80%93Oppenheimer%E2%80%93Volkoff_equation).
 
-<img src="example/figures/mr.png" width="300"/>
+<img src="example/figures/mr.png" width="500"/>
 
-<img src="example/figures/tidal.png" width="400"/>
+<img src="example/figures/tidal.png" width="700"/>
 
 ## Documentation
 
