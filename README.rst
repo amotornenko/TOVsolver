@@ -18,14 +18,14 @@ Python solver for `TOV equation
 
 Documentation
 =============
-To install use:
+To install use::
 .. code-block:: python
-   sudo pip3 install .
+   pip3 install .
 
 Functionality
 =============
 
-Licence
+License
 =======
 
 Copyright 2019-2020 Anton Motornenko (FIAS)
