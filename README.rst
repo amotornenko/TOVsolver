@@ -19,8 +19,8 @@ Python solver for `TOV equation
 Documentation
 =============
 To install use:
-.. code-block:: python3
-  sudo pip3 install .
+.. code-block:: python
+   sudo pip3 install .
 
 Functionality
 =============
