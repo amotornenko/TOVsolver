@@ -15,7 +15,7 @@ setup(
     description='TOV solver',
     long_description=long_description,
     long_description_content_type='text/x-rst',
-    # url='https://github.com/PyPSA/PyPSA',
+    url='https://github.com/amotornenko/TOVsolver',
     license='GPLv3',
     packages=find_packages(exclude=['doc', 'test']),
     include_package_data=True,
