@@ -38,7 +38,7 @@ pip3 install . --user
 ```
 
 
-See example jupyter notebook in ``example`` folder.
+See an [**example jupyter notebook**](https://github.com/amotornenko/TOVsolver/blob/master/example/TOVsolver%20example.ipynb) in the ``example`` folder.
 
 ## Functionality
 
