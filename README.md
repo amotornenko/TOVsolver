@@ -31,6 +31,13 @@ To install use:
 pip3 install .
 ```
 
+Or if you do not have root access, then to install locally:
+
+``` python
+pip3 install . --user
+```
+
+
 See example jupyter notebook in ``example`` folder.
 
 ## Functionality
