@@ -213,6 +213,15 @@ class TOV:
 
     return [dPdr, dmdr]
 
+  def check_density(self, dens):
+    if dens < self.min_dens or dens > self.max_dens:
+      raise Exception('Central density: %8.4E is outside of the EoS range. \n' 
+                        %(dens/(MeV_fm3_to_pa_cgs / c ** 2)) +
+                        'min density is: %8.4E, max density is:%8.4E'
+                         %(self.min_dens/(MeV_fm3_to_pa_cgs / c ** 2), 
+                         self.max_dens/(MeV_fm3_to_pa_cgs / c ** 2)))
+
+
 
   def solve(self, c_dens, rmax=30e5, rtol=1.0e-5, dmrel=10e-12, dr=100):
     """
@@ -251,10 +260,9 @@ class TOV:
     """
     c_dens *= MeV_fm3_to_pa_cgs / c ** 2
 
-    r = np.arange(dr, rmax + dr, dr)
+    self.check_density(c_dens)
 
-    if c_dens < self.min_dens or c_dens > self.max_dens:
-      raise Exception('Central density: %8.4E is outside of the EoS range' %(c_dens))
+    r = np.arange(dr, rmax + dr, dr)
 
     P = self.press(c_dens)
     eden = self.en_dens(P)
