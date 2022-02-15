@@ -116,7 +116,7 @@ class TOV:
     # dir_name = os.path.dirname(__file__)
     
     baym_eos = np.genfromtxt(crust_loc + "Baym_eos.dat", 
-                         dtype=float, skip_header=1, unpack=True, 
+                         dtype=float, skip_header=1,
                          names=["en", "p", "nB",])
 
     P_crust = interp1d(baym_eos["en"], baym_eos["p"], kind = 'cubic')
